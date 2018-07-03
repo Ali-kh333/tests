@@ -17,7 +17,7 @@ class BladeTestServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'btest');
 
         Blade::directive('hi', function () {
-            return "<?php echo hey; ?>";
+            return "<?php echo 'hey'; ?>";
         });
     }
 
