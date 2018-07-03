@@ -1,0 +1,27 @@
+{
+    "name": "btest",
+    "description": "Blade package test",
+    "keywords": [],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Khalili",
+            "email": "ali.kh333@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Khalili\\Blade\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khalili\\Blade\\BladeTestServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
